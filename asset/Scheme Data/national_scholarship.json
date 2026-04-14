@@ -1,0 +1,152 @@
+{
+  "scheme_id": "national_scholarship",
+  "scheme_name": "National Scholarship Portal - Student Scholarships",
+  "scheme_name_hi": "राष्ट्रीय छात्रवृत्ति पोर्टल - छात्र छात्रवृत्तियां",
+  "acronym": "NSP",
+  "ministry": "Ministry of Electronics and Information Technology (Portal), Various Ministries (Individual Scholarships)",
+  "ministry_hi": "इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी मंत्रालय (पोर्टल), विभिन्न मंत्रालय (व्यक्तिगत छात्रवृत्तियां)",
+
+  "description": "The National Scholarship Portal (NSP) is a one-stop website where students can find and apply for various government scholarships. It has scholarships from the Central Government, State Governments, and UGC/AICTE. Scholarships are available for students from Class 1 to PhD level. The scholarships cover tuition fees, maintenance allowance, and other expenses. This helps students from economically weaker families continue their education without financial burden.",
+  "description_hi": "राष्ट्रीय छात्रवृत्ति पोर्टल (NSP) एक ही जगह है जहां छात्र विभिन्न सरकारी छात्रवृत्तियां खोज सकते हैं और आवेदन कर सकते हैं। इसमें केंद्र सरकार, राज्य सरकारों और UGC/AICTE की छात्रवृत्तियां हैं। कक्षा 1 से PhD तक के छात्रों के लिए छात्रवृत्तियां उपलब्ध हैं। छात्रवृत्तियां ट्यूशन फीस, रखरखाव भत्ता और अन्य खर्चों को कवर करती हैं। इससे आर्थिक रूप से कमजोर परिवारों के छात्रों को बिना आर्थिक बोझ के पढ़ाई जारी रखने में मदद मिलती है।",
+
+  "benefits": "Depending on the specific scholarship, benefits include: Tuition fee reimbursement (partial or full), Monthly maintenance allowance ranging from Rs 500 to Rs 3,000+, Book and equipment allowance, Hostel charges coverage, Course fees for professional courses. Major scholarships include: Pre-Matric Scholarship for SC/ST/OBC/Minorities (Rs 150-750/month), Post-Matric Scholarship for SC/ST/OBC/Minorities (Rs 230-1,200/month plus fees), Merit-cum-Means Scholarship for Professional Courses for Minorities (full course fee up to Rs 20,000 plus Rs 1,000/month maintenance), Central Sector Scheme of Scholarships for College and University Students (Rs 10,000-20,000/year).",
+  "benefits_hi": "विशिष्ट छात्रवृत्ति के अनुसार लाभ: ट्यूशन फीस की प्रतिपूर्ति (आंशिक या पूर्ण), 500 से 3,000+ रुपये मासिक रखरखाव भत्ता, पुस्तक और उपकरण भत्ता, छात्रावास शुल्क, व्यावसायिक पाठ्यक्रमों की फीस। प्रमुख छात्रवृत्तियां: SC/ST/OBC/अल्पसंख्यकों के लिए प्री-मैट्रिक छात्रवृत्ति (150-750 रुपये/माह), SC/ST/OBC/अल्पसंख्यकों के लिए पोस्ट-मैट्रिक छात्रवृत्ति (230-1,200 रुपये/माह और फीस), अल्पसंख्यकों के लिए मेरिट-कम-मीन्स छात्रवृत्ति (20,000 रुपये तक पूर्ण कोर्स फीस और 1,000 रुपये/माह), केंद्रीय क्षेत्र छात्रवृत्ति (10,000-20,000 रुपये/वर्ष)।",
+
+  "eligibility": [
+    "Must be an Indian citizen",
+    "Must be a regular student enrolled in a recognized school/college/university",
+    "Family annual income limit varies by scholarship — generally Rs 1 lakh to Rs 8 lakh",
+    "Pre-Matric Scholarships: Students in Class 1 to Class 10",
+    "Post-Matric Scholarships: Students in Class 11 and above including graduation, post-graduation, and professional courses",
+    "Category-based scholarships available for SC, ST, OBC, Minority community students, and children with disabilities",
+    "Merit-based scholarships: Minimum marks requirement (usually 50-60% in previous exam)",
+    "Must not be receiving any other scholarship simultaneously (for most schemes)",
+    "Students studying in distance/correspondence mode may not be eligible for some scholarships"
+  ],
+  "eligibility_hi": [
+    "भारतीय नागरिक होना चाहिए",
+    "मान्यता प्राप्त स्कूल/कॉलेज/विश्वविद्यालय में नियमित छात्र होना चाहिए",
+    "पारिवारिक वार्षिक आय सीमा छात्रवृत्ति के अनुसार बदलती है — आम तौर पर 1 लाख से 8 लाख रुपये",
+    "प्री-मैट्रिक छात्रवृत्ति: कक्षा 1 से 10 के छात्र",
+    "पोस्ट-मैट्रिक छात्रवृत्ति: कक्षा 11 और उससे ऊपर जिसमें स्नातक, स्नातकोत्तर और व्यावसायिक पाठ्यक्रम शामिल हैं",
+    "SC, ST, OBC, अल्पसंख्यक समुदाय के छात्रों और विकलांग बच्चों के लिए श्रेणी-आधारित छात्रवृत्तियां",
+    "मेरिट-आधारित छात्रवृत्ति: न्यूनतम अंक आवश्यकता (आमतौर पर पिछली परीक्षा में 50-60%)",
+    "अधिकांश योजनाओं के लिए एक साथ कोई अन्य छात्रवृत्ति नहीं मिल रही हो",
+    "दूरस्थ/पत्राचार शिक्षा के छात्र कुछ छात्रवृत्तियों के लिए पात्र नहीं हो सकते"
+  ],
+
+  "eligibility_rules": [
+    {
+      "question_en": "Are you currently a student enrolled in a school, college, or university?",
+      "question_hi": "क्या आप वर्तमान में किसी स्कूल, कॉलेज या विश्वविद्यालय में पढ़ रहे हैं?",
+      "field": "is_student",
+      "type": "yes_no",
+      "required_value": true,
+      "disqualifying": true,
+      "disqualify_message_en": "NSP scholarships are for currently enrolled students. If you are planning to enroll, you can apply once you get admission.",
+      "disqualify_message_hi": "NSP छात्रवृत्तियां वर्तमान में नामांकित छात्रों के लिए हैं। अगर आप नामांकन की योजना बना रहे हैं तो दाखिला मिलने पर आवेदन कर सकते हैं।"
+    },
+    {
+      "question_en": "What is your current education level?",
+      "question_hi": "आपका वर्तमान शिक्षा स्तर क्या है?",
+      "field": "education_level",
+      "type": "choice",
+      "options": ["class_1_to_8", "class_9_to_10", "class_11_to_12", "graduation", "post_graduation", "professional_course", "phd"],
+      "options_labels_en": ["Class 1 to 8", "Class 9 to 10", "Class 11 to 12", "Graduation (BA/BSc/BCom etc.)", "Post Graduation (MA/MSc etc.)", "Professional Course (Engineering/Medical/Law etc.)", "PhD/Research"],
+      "options_labels_hi": ["कक्षा 1 से 8", "कक्षा 9 से 10", "कक्षा 11 से 12", "स्नातक (BA/BSc/BCom आदि)", "स्नातकोत्तर (MA/MSc आदि)", "व्यावसायिक पाठ्यक्रम (इंजीनियरिंग/मेडिकल/लॉ आदि)", "PhD/शोध"]
+    },
+    {
+      "question_en": "Which category do you belong to?",
+      "question_hi": "आप किस श्रेणी से हैं?",
+      "field": "category",
+      "type": "choice",
+      "options": ["sc", "st", "obc", "minority", "general", "ews", "disabled"],
+      "options_labels_en": ["SC (Scheduled Caste)", "ST (Scheduled Tribe)", "OBC (Other Backward Class)", "Minority (Muslim/Christian/Sikh/Jain/Buddhist/Parsi)", "General", "EWS (Economically Weaker Section)", "Person with Disability"],
+      "options_labels_hi": ["SC (अनुसूचित जाति)", "ST (अनुसूचित जनजाति)", "OBC (अन्य पिछड़ा वर्ग)", "अल्पसंख्यक (मुस्लिम/ईसाई/सिख/जैन/बौद्ध/पारसी)", "सामान्य", "EWS (आर्थिक रूप से कमजोर वर्ग)", "विकलांग व्यक्ति"]
+    },
+    {
+      "question_en": "What is your family's total annual income?",
+      "question_hi": "आपके परिवार की कुल वार्षिक आय कितनी है?",
+      "field": "family_income",
+      "type": "choice",
+      "options": ["below_1l", "1l_to_2.5l", "2.5l_to_6l", "6l_to_8l", "above_8l"],
+      "options_labels_en": ["Below Rs 1 lakh", "Rs 1-2.5 lakh", "Rs 2.5-6 lakh", "Rs 6-8 lakh", "Above Rs 8 lakh"],
+      "options_labels_hi": ["1 लाख से कम", "1-2.5 लाख", "2.5-6 लाख", "6-8 लाख", "8 लाख से ऊपर"]
+    },
+    {
+      "question_en": "Are you already receiving any other scholarship from the government?",
+      "question_hi": "क्या आपको पहले से सरकार से कोई अन्य छात्रवृत्ति मिल रही है?",
+      "field": "other_scholarship",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": false
+    }
+  ],
+
+  "documents_required": [
+    {
+      "name_en": "Aadhaar Card",
+      "name_hi": "आधार कार्ड",
+      "description_en": "Student's Aadhaar card. Aadhaar must be linked to your bank account for scholarship amount transfer.",
+      "description_hi": "छात्र का आधार कार्ड। छात्रवृत्ति राशि के हस्तांतरण के लिए आधार बैंक खाते से लिंक होना चाहिए।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Previous Year Marksheet",
+      "name_hi": "पिछले वर्ष की मार्कशीट",
+      "description_en": "Your marksheet/grade card from the last completed examination. This is needed to verify your academic performance.",
+      "description_hi": "आखिरी पूरी की गई परीक्षा की मार्कशीट/ग्रेड कार्ड। आपके शैक्षिक प्रदर्शन को सत्यापित करने के लिए आवश्यक।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Income Certificate",
+      "name_hi": "आय प्रमाण पत्र",
+      "description_en": "Family income certificate issued by a competent authority (Tehsildar/SDM). This must be recent (usually issued within the last year). Apply at your Tehsil office or state e-District portal.",
+      "description_hi": "सक्षम प्राधिकारी (तहसीलदार/SDM) द्वारा जारी पारिवारिक आय प्रमाण पत्र। यह हालिया होना चाहिए (आमतौर पर पिछले एक वर्ष में जारी)। तहसील कार्यालय या राज्य ई-डिस्ट्रिक्ट पोर्टल पर आवेदन करें।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Caste/Community Certificate",
+      "name_hi": "जाति/समुदाय प्रमाण पत्र",
+      "description_en": "Required for SC/ST/OBC/Minority category students. SC/ST/OBC certificate from Tehsildar. Minority community self-declaration from the institution or a certificate from the community head.",
+      "description_hi": "SC/ST/OBC/अल्पसंख्यक श्रेणी के छात्रों के लिए आवश्यक। SC/ST/OBC प्रमाण पत्र तहसीलदार से। अल्पसंख्यक समुदाय स्व-घोषणा संस्थान से या समुदाय प्रमुख से प्रमाण पत्र।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Bank Account (Student's own)",
+      "name_hi": "बैंक खाता (छात्र का अपना)",
+      "description_en": "Student's own bank account passbook. The account must be in the student's name and linked to Aadhaar. If minor, a joint account with parent is acceptable.",
+      "description_hi": "छात्र का अपना बैंक खाता पासबुक। खाता छात्र के नाम पर और आधार से लिंक होना चाहिए। नाबालिग होने पर माता-पिता के साथ संयुक्त खाता स्वीकार्य है।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Bonafide/Enrollment Certificate from Institution",
+      "name_hi": "संस्थान से बोनाफाइड/नामांकन प्रमाण पत्र",
+      "description_en": "Certificate from your school/college confirming you are currently enrolled. Ask your institution's office for this.",
+      "description_hi": "आपके स्कूल/कॉलेज से प्रमाण पत्र जो पुष्टि करता है कि आप वर्तमान में नामांकित हैं। अपने संस्थान के कार्यालय से मांगें।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Fee Receipt",
+      "name_hi": "शुल्क रसीद",
+      "description_en": "Current year fee receipt from your institution showing the fees paid or to be paid.",
+      "description_hi": "आपके संस्थान की वर्तमान वर्ष की शुल्क रसीद जिसमें भुगतान की गई या भुगतान की जाने वाली फीस दिखाई गई हो।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Disability Certificate (if applicable)",
+      "name_hi": "विकलांगता प्रमाण पत्र (यदि लागू हो)",
+      "description_en": "For students with disabilities — certificate from a government hospital or certified medical board showing minimum 40% disability.",
+      "description_hi": "विकलांग छात्रों के लिए — सरकारी अस्पताल या प्रमाणित चिकित्सा बोर्ड से प्रमाण पत्र जिसमें न्यूनतम 40% विकलांगता दर्शाई गई हो।",
+      "mandatory": false
+    }
+  ],
+
+  "how_to_apply": "Step 1: Go to scholarships.gov.in (National Scholarship Portal). Step 2: Click 'New Registration' and register with your name, date of birth, mobile number, and email. You will get a username and password. Step 3: Login and fill the 'Application Form' — enter personal details, academic details, family income, bank details, and upload required documents. Step 4: Your institution will verify your application. Step 5: After institution verification, the concerned department will verify and approve. Step 6: Scholarship amount will be transferred directly to your bank account. Important: Applications usually open in August-October each year for the current academic year. Check the portal regularly for deadlines. Keep your documents ready before the portal opens.",
+  "how_to_apply_hi": "चरण 1: scholarships.gov.in (राष्ट्रीय छात्रवृत्ति पोर्टल) पर जाएं। चरण 2: 'New Registration' पर क्लिक करें और नाम, जन्म तिथि, मोबाइल नंबर, ईमेल से पंजीकरण करें। यूजरनेम और पासवर्ड मिलेगा। चरण 3: लॉगिन करें और 'Application Form' भरें — व्यक्तिगत विवरण, शैक्षिक विवरण, पारिवारिक आय, बैंक विवरण दर्ज करें और आवश्यक दस्तावेज अपलोड करें। चरण 4: आपका संस्थान आवेदन सत्यापित करेगा। चरण 5: संस्थान सत्यापन के बाद संबंधित विभाग सत्यापित और स्वीकृत करेगा। चरण 6: छात्रवृत्ति राशि सीधे बैंक खाते में भेजी जाएगी। महत्वपूर्ण: आवेदन आमतौर पर हर साल अगस्त-अक्टूबर में मौजूदा शैक्षिक वर्ष के लिए खुलते हैं। समय-सीमा के लिए नियमित रूप से पोर्टल देखें। पोर्टल खुलने से पहले दस्तावेज तैयार रखें।",
+
+  "application_url": "https://scholarships.gov.in",
+  "helpline": "0120-6619540",
+  "category": ["education", "scholarship", "students"],
+  "target_group": ["students", "SC students", "ST students", "OBC students", "minority students", "disabled students", "economically weaker students"]
+}

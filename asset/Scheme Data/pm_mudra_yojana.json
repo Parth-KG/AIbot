@@ -1,0 +1,161 @@
+{
+  "scheme_id": "pm_mudra",
+  "scheme_name": "Pradhan Mantri Mudra Yojana",
+  "scheme_name_hi": "प्रधानमंत्री मुद्रा योजना",
+  "acronym": "PMMY",
+  "ministry": "Ministry of Finance",
+  "ministry_hi": "वित्त मंत्रालय",
+
+  "description": "Pradhan Mantri Mudra Yojana provides small loans to people who want to start or grow a small business but cannot get loans from banks easily. If you want to open a shop, start a tailoring business, buy an auto-rickshaw, set up a food stall, or any other small business — you can get a loan up to Rs 10 lakh without any collateral (guarantee). The scheme has three categories based on how much money you need: Shishu (up to Rs 50,000), Kishore (Rs 50,000 to Rs 5 lakh), and Tarun (Rs 5 lakh to Rs 10 lakh).",
+  "description_hi": "प्रधानमंत्री मुद्रा योजना उन लोगों को छोटे कर्ज़ देती है जो छोटा व्यापार शुरू करना या बढ़ाना चाहते हैं लेकिन बैंकों से आसानी से कर्ज़ नहीं ले पाते। अगर आप दुकान खोलना चाहते हैं, सिलाई का काम शुरू करना है, ऑटो-रिक्शा खरीदना है, खाने की दुकान लगानी है — तो आप बिना किसी गारंटी (जमानत) के 10 लाख रुपये तक का कर्ज़ ले सकते हैं। योजना में तीन श्रेणियां हैं: शिशु (50,000 रुपये तक), किशोर (50,000 से 5 लाख), और तरुण (5 लाख से 10 लाख)।",
+
+  "benefits": "Shishu Loan: Up to Rs 50,000 — For those just starting a new business. No processing fee charged. Kishore Loan: Rs 50,001 to Rs 5 lakh — For those who have a business and want to expand it. Tarun Loan: Rs 5,00,001 to Rs 10 lakh — For well-established small businesses needing bigger investment. Key benefits: No collateral/guarantee required for any category. Interest rates are reasonable (around 7-12% per annum depending on the bank). Loan can be repaid in up to 5 years. Women entrepreneurs get priority under this scheme. A Mudra Card (like a debit card) is given for working capital needs.",
+  "benefits_hi": "शिशु ऋण: 50,000 रुपये तक — नया व्यापार शुरू करने वालों के लिए। कोई प्रोसेसिंग शुल्क नहीं। किशोर ऋण: 50,001 से 5 लाख रुपये — जिनका व्यापार है और बढ़ाना चाहते हैं। तरुण ऋण: 5,00,001 से 10 लाख रुपये — स्थापित छोटे व्यापारों के लिए बड़ा निवेश। मुख्य लाभ: किसी भी श्रेणी के लिए कोई जमानत/गारंटी नहीं। ब्याज दरें उचित हैं (बैंक के अनुसार लगभग 7-12% प्रति वर्ष)। 5 साल तक चुकाने की सुविधा। महिला उद्यमियों को प्राथमिकता। कार्यशील पूंजी के लिए मुद्रा कार्ड (डेबिट कार्ड जैसा) दिया जाता है।",
+
+  "eligibility": [
+    "Any Indian citizen who wants to start or expand a non-farm income generating business",
+    "Business activities covered: manufacturing, processing, trading, service sector, food service, textile, transport, etc.",
+    "The business should be a non-corporate, non-farm small/micro enterprise",
+    "Existing businesses that need additional funding for expansion are also eligible",
+    "No minimum educational qualification required",
+    "No minimum or maximum age limit (but must be legally able to enter a contract — typically 18+)",
+    "Individual entrepreneurs, partnership firms, and small manufacturing units are all eligible",
+    "Agricultural activities like crop farming are NOT covered (but allied activities like food processing, fishery, poultry, beekeeping are covered)",
+    "The applicant should not have defaulted on any previous bank loan"
+  ],
+  "eligibility_hi": [
+    "कोई भी भारतीय नागरिक जो गैर-कृषि आय उत्पन्न करने वाला व्यापार शुरू या बढ़ाना चाहता है",
+    "शामिल व्यापार: विनिर्माण, प्रसंस्करण, व्यापार, सेवा क्षेत्र, खाद्य सेवा, कपड़ा, परिवहन आदि",
+    "व्यापार गैर-कॉर्पोरेट, गैर-कृषि छोटा/सूक्ष्म उद्यम होना चाहिए",
+    "मौजूदा व्यापार जिन्हें विस्तार के लिए अतिरिक्त धन चाहिए वे भी पात्र हैं",
+    "कोई न्यूनतम शैक्षिक योग्यता आवश्यक नहीं",
+    "कोई न्यूनतम या अधिकतम आयु सीमा नहीं (लेकिन अनुबंध करने में सक्षम होना चाहिए — आमतौर पर 18+)",
+    "व्यक्तिगत उद्यमी, साझेदारी फर्म, और छोटी विनिर्माण इकाइयां सभी पात्र हैं",
+    "फसल खेती जैसी कृषि गतिविधियां शामिल नहीं हैं (लेकिन खाद्य प्रसंस्करण, मत्स्य पालन, मुर्गी पालन, मधुमक्खी पालन जैसी सहायक गतिविधियां शामिल हैं)",
+    "आवेदक ने पहले किसी बैंक ऋण में चूक नहीं की हो"
+  ],
+
+  "eligibility_rules": [
+    {
+      "question_en": "Do you want to start a new business or expand an existing one?",
+      "question_hi": "क्या आप नया व्यापार शुरू करना चाहते हैं या मौजूदा व्यापार बढ़ाना चाहते हैं?",
+      "field": "business_status",
+      "type": "choice",
+      "options": ["new_business", "existing_expand", "no_business_plan"],
+      "options_labels_en": ["Start a new business", "Expand existing business", "I don't have a specific plan yet"],
+      "options_labels_hi": ["नया व्यापार शुरू करना", "मौजूदा व्यापार बढ़ाना", "अभी कोई विशिष्ट योजना नहीं"]
+    },
+    {
+      "question_en": "What type of business do you want to do or are doing?",
+      "question_hi": "आप किस प्रकार का व्यापार करना चाहते हैं या कर रहे हैं?",
+      "field": "business_type",
+      "type": "choice",
+      "options": ["shop_trading", "food_service", "manufacturing", "transport", "service_provider", "textile_tailoring", "other_non_farm"],
+      "options_labels_en": ["Shop/Trading", "Food stall/Restaurant/Catering", "Manufacturing/Production", "Transport (auto/taxi/goods)", "Service (salon/repair/plumbing etc.)", "Textile/Tailoring", "Other non-farm business"],
+      "options_labels_hi": ["दुकान/व्यापार", "खाने की दुकान/रेस्तरां/केटरिंग", "विनिर्माण/उत्पादन", "परिवहन (ऑटो/टैक्सी/माल)", "सेवा (सैलून/मरम्मत/प्लंबिंग आदि)", "कपड़ा/सिलाई", "अन्य गैर-कृषि व्यापार"]
+    },
+    {
+      "question_en": "How much loan amount do you need approximately?",
+      "question_hi": "आपको लगभग कितने ऋण की आवश्यकता है?",
+      "field": "loan_amount_needed",
+      "type": "choice",
+      "options": ["upto_50k", "50k_to_5l", "5l_to_10l", "above_10l"],
+      "options_labels_en": ["Up to Rs 50,000 (Shishu)", "Rs 50,000 to 5 lakh (Kishore)", "Rs 5 lakh to 10 lakh (Tarun)", "More than Rs 10 lakh (not covered under Mudra)"],
+      "options_labels_hi": ["50,000 रुपये तक (शिशु)", "50,000 से 5 लाख (किशोर)", "5 लाख से 10 लाख (तरुण)", "10 लाख से अधिक (मुद्रा के अंतर्गत नहीं)"]
+    },
+    {
+      "question_en": "Have you ever defaulted on (not repaid) any bank loan in the past?",
+      "question_hi": "क्या आपने अतीत में कभी किसी बैंक ऋण की चुकौती नहीं की (डिफॉल्ट किया) है?",
+      "field": "loan_default",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Loan defaulters may face difficulty in getting Mudra loans. You may need to settle your previous dues first. Visit the bank to discuss your options.",
+      "disqualify_message_hi": "ऋण चूककर्ताओं को मुद्रा ऋण प्राप्त करने में कठिनाई हो सकती है। पहले अपने पिछले बकाये का निपटारा करना पड़ सकता है। विकल्पों पर चर्चा करने के लिए बैंक जाएं।"
+    },
+    {
+      "question_en": "Is your business related to farming/agriculture (growing crops)?",
+      "question_hi": "क्या आपका व्यापार खेती/कृषि (फसल उगाना) से संबंधित है?",
+      "field": "is_farming",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Crop farming is not covered under Mudra Yojana. However, allied agricultural activities like food processing, dairy, fishery, poultry, and beekeeping ARE covered. For crop farming loans, look into Kisan Credit Card (KCC) scheme.",
+      "disqualify_message_hi": "फसल खेती मुद्रा योजना के अंतर्गत नहीं आती। हालांकि, खाद्य प्रसंस्करण, डेयरी, मत्स्य पालन, मुर्गी पालन और मधुमक्खी पालन जैसी सहायक कृषि गतिविधियां शामिल हैं। फसल ऋण के लिए किसान क्रेडिट कार्ड (KCC) योजना देखें।"
+    }
+  ],
+
+  "documents_required": [
+    {
+      "name_en": "Aadhaar Card",
+      "name_hi": "आधार कार्ड",
+      "description_en": "Your Aadhaar card for identity and address verification.",
+      "description_hi": "पहचान और पता सत्यापन के लिए आपका आधार कार्ड।",
+      "mandatory": true
+    },
+    {
+      "name_en": "PAN Card",
+      "name_hi": "पैन कार्ड",
+      "description_en": "PAN card is required for loans above Rs 50,000 (Kishore and Tarun categories). If you don't have PAN, apply at incometax.gov.in or visit a PAN center.",
+      "description_hi": "50,000 रुपये से ऊपर के ऋणों (किशोर और तरुण श्रेणी) के लिए पैन कार्ड आवश्यक है। अगर पैन नहीं है तो incometax.gov.in पर आवेदन करें या पैन केंद्र जाएं।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Business Plan / Project Report",
+      "name_hi": "व्यापार योजना / प्रोजेक्ट रिपोर्ट",
+      "description_en": "A simple description of what business you want to do, how much money you need and what you will use it for. For Shishu loans, a verbal explanation may be enough. For Kishore and Tarun, a written plan is needed. Your bank manager can help you prepare this.",
+      "description_hi": "एक सरल विवरण कि आप क्या व्यापार करना चाहते हैं, कितने पैसे चाहिए और किस लिए उपयोग करेंगे। शिशु ऋण के लिए मौखिक स्पष्टीकरण पर्याप्त हो सकता है। किशोर और तरुण के लिए लिखित योजना चाहिए। बैंक मैनेजर इसे तैयार करने में मदद कर सकते हैं।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Passport-size Photographs",
+      "name_hi": "पासपोर्ट साइज फोटो",
+      "description_en": "2-3 recent passport-size photographs of the applicant.",
+      "description_hi": "आवेदक की 2-3 हालिया पासपोर्ट साइज फोटो।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Address Proof",
+      "name_hi": "पता प्रमाण",
+      "description_en": "Voter ID, Aadhaar, utility bill, or rent agreement showing your address.",
+      "description_hi": "मतदाता पहचान पत्र, आधार, बिजली/पानी बिल, या किराया अनुबंध।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Business Address Proof",
+      "name_hi": "व्यापार पता प्रमाण",
+      "description_en": "Proof of where your business operates — shop rent agreement, trade license, or utility bill of the business premises. For new businesses, a letter stating the proposed business address.",
+      "description_hi": "आपका व्यापार कहां चलता है इसका प्रमाण — दुकान किराया अनुबंध, व्यापार लाइसेंस, या व्यापार परिसर का बिजली/पानी बिल। नए व्यापार के लिए प्रस्तावित व्यापार पता बताने वाला पत्र।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Quotation of Items to be Purchased",
+      "name_hi": "खरीदी जाने वाली वस्तुओं का कोटेशन",
+      "description_en": "If you want to buy machinery, vehicle, or equipment with the loan — get a price quotation from the seller/dealer.",
+      "description_hi": "अगर ऋण से मशीनरी, वाहन, या उपकरण खरीदना है — विक्रेता/डीलर से मूल्य कोटेशन लें।",
+      "mandatory": false
+    },
+    {
+      "name_en": "Bank Statements (for existing businesses)",
+      "name_hi": "बैंक स्टेटमेंट (मौजूदा व्यापारों के लिए)",
+      "description_en": "Last 6 months bank statements if you have an existing business. This helps the bank assess your business income.",
+      "description_hi": "मौजूदा व्यापार होने पर पिछले 6 महीने के बैंक स्टेटमेंट। इससे बैंक को आपकी व्यापार आय का आकलन करने में मदद मिलती है।",
+      "mandatory": false
+    },
+    {
+      "name_en": "Category Certificate (SC/ST/OBC if applicable)",
+      "name_hi": "श्रेणी प्रमाण पत्र (SC/ST/OBC यदि लागू हो)",
+      "description_en": "If you belong to SC/ST/OBC category, carry your caste certificate as you may get priority under the scheme.",
+      "description_hi": "अगर आप SC/ST/OBC श्रेणी से हैं तो जाति प्रमाण पत्र साथ रखें क्योंकि योजना के तहत प्राथमिकता मिल सकती है।",
+      "mandatory": false
+    }
+  ],
+
+  "how_to_apply": "Option 1 - Visit any bank: You can apply at any commercial bank (SBI, PNB, Bank of Baroda, etc.), Regional Rural Bank (RRB), Small Finance Bank, Micro Finance Institution (MFI), or NBFC. Simply walk into the nearest branch and ask for a Mudra loan application form. Option 2 - Online through Mudra Portal: Visit mudra.org.in and apply online. You can also apply through the Udyamimitra portal (udyamimitra.in) where you can find the nearest lending institution. Option 3 - Through Common Service Centre (CSC): Visit your nearest Jan Seva Kendra for help with the application. Tips: Start with a Shishu loan if you are new — it is easiest to get approved. Have a clear idea of what business you want to do and how much money you need. If one bank rejects your application, try another bank — different banks have different criteria. Women, SC/ST applicants, and those in rural areas often get priority.",
+  "how_to_apply_hi": "विकल्प 1 - किसी भी बैंक में जाएं: किसी भी कमर्शियल बैंक (SBI, PNB, बैंक ऑफ बड़ौदा आदि), क्षेत्रीय ग्रामीण बैंक (RRB), स्मॉल फाइनेंस बैंक, माइक्रो फाइनेंस संस्था, या NBFC में आवेदन कर सकते हैं। नजदीकी शाखा में जाएं और मुद्रा ऋण आवेदन फॉर्म मांगें। विकल्प 2 - मुद्रा पोर्टल पर ऑनलाइन: mudra.org.in पर जाएं और ऑनलाइन आवेदन करें। उद्यमीमित्र पोर्टल (udyamimitra.in) पर भी आवेदन कर सकते हैं जहां नजदीकी ऋण संस्थान मिल सकता है। विकल्प 3 - जन सेवा केंद्र (CSC) से: नजदीकी जन सेवा केंद्र पर आवेदन में मदद लें। सुझाव: नए हैं तो शिशु ऋण से शुरू करें — मंजूरी सबसे आसान है। स्पष्ट विचार रखें कि क्या व्यापार करना है और कितने पैसे चाहिए। अगर एक बैंक आवेदन अस्वीकार करे तो दूसरे बैंक में प्रयास करें। महिलाओं, SC/ST आवेदकों, और ग्रामीण क्षेत्र के लोगों को अक्सर प्राथमिकता मिलती है।",
+
+  "application_url": "https://mudra.org.in",
+  "helpline": "1800-180-1111",
+  "category": ["business", "loan", "entrepreneurship", "self_employment"],
+  "target_group": ["small business owners", "entrepreneurs", "street vendors", "artisans", "women entrepreneurs", "micro enterprises", "self employed"]
+}

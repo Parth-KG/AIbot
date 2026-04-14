@@ -1,0 +1,115 @@
+{
+  "scheme_id": "ayushman_bharat",
+  "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana",
+  "scheme_name_hi": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना",
+  "acronym": "AB-PMJAY",
+  "ministry": "Ministry of Health and Family Welfare",
+  "ministry_hi": "स्वास्थ्य और परिवार कल्याण मंत्रालय",
+
+  "description": "Ayushman Bharat is the world's largest government health insurance scheme. It provides free health coverage of up to Rs 5 lakh per family per year for secondary and tertiary hospital treatment. If you or your family member falls sick and needs hospital treatment like surgery, tests, medicines, or ICU care, the government pays the hospital directly. You don't have to pay anything. It covers over 1,900 medical procedures including surgeries, day care treatments, and follow-up care.",
+  "description_hi": "आयुष्मान भारत दुनिया की सबसे बड़ी सरकारी स्वास्थ्य बीमा योजना है। यह माध्यमिक और तृतीयक अस्पताल उपचार के लिए प्रति परिवार प्रति वर्ष 5 लाख रुपये तक का मुफ्त स्वास्थ्य कवरेज प्रदान करती है। अगर आप या आपके परिवार का कोई सदस्य बीमार पड़ता है और अस्पताल में इलाज की जरूरत है जैसे सर्जरी, जांच, दवाइयां या ICU — तो सरकार सीधे अस्पताल को भुगतान करती है। आपको कुछ नहीं देना होता। इसमें 1,900 से अधिक चिकित्सा प्रक्रियाएं शामिल हैं।",
+
+  "benefits": "Health coverage of Rs 5 lakh per family per year. Covers hospitalization expenses including bed charges, doctor fees, medicines, diagnostics, surgeries, ICU, food during hospital stay, and follow-up treatment up to 15 days after discharge. Pre-existing diseases are covered from day one. No age limit, no family size limit. Cashless and paperless treatment at any empanelled hospital across India.",
+  "benefits_hi": "प्रति परिवार प्रति वर्ष 5 लाख रुपये का स्वास्थ्य कवरेज। अस्पताल में भर्ती खर्च जैसे बेड चार्ज, डॉक्टर फीस, दवाइयां, जांच, सर्जरी, ICU, अस्पताल में खाना, और छुट्टी के बाद 15 दिन तक का फॉलो-अप इलाज शामिल है। पहले से मौजूद बीमारियां पहले दिन से कवर हैं। कोई आयु सीमा नहीं, कोई परिवार आकार सीमा नहीं। पूरे भारत में किसी भी सूचीबद्ध अस्पताल में कैशलेस और पेपरलेस इलाज।",
+
+  "eligibility": [
+    "Families identified in the SECC (Socio-Economic Caste Census) 2011 database",
+    "Rural: Families with deprivation criteria like kutcha house, no adult earning member, female-headed household, SC/ST household, landless, manual casual labour, destitute, etc.",
+    "Urban: Workers in occupations like rag picking, begging, domestic work, street vendors, construction workers, plumbers, painters, security guards, coolies, sweepers, handicraft workers, transport workers, rickshaw/auto drivers, shop workers, washermen, etc.",
+    "All ration card holders (Antyodaya and priority household) under National Food Security Act",
+    "No income limit if you are in the SECC list",
+    "Families already covered under RSBY (Rashtriya Swasthya Bima Yojana) are automatically included"
+  ],
+  "eligibility_hi": [
+    "SECC (सामाजिक-आर्थिक जाति जनगणना) 2011 डेटाबेस में पहचाने गए परिवार",
+    "ग्रामीण: वंचित मानदंडों वाले परिवार जैसे कच्चा मकान, कोई वयस्क कमाने वाला न हो, महिला प्रधान परिवार, SC/ST परिवार, भूमिहीन, मजदूर, निराश्रित आदि",
+    "शहरी: कूड़ा बीनने वाले, भिखारी, घरेलू कामगार, रेहड़ी-पटरी वाले, निर्माण श्रमिक, प्लंबर, पेंटर, सुरक्षा गार्ड, कुली, सफाईकर्मी, हस्तशिल्प कारीगर, परिवहन कर्मी, रिक्शा/ऑटो चालक, दुकान कर्मचारी, धोबी आदि",
+    "राष्ट्रीय खाद्य सुरक्षा अधिनियम के तहत सभी राशन कार्ड धारक (अंत्योदय और प्राथमिकता परिवार)",
+    "अगर आप SECC सूची में हैं तो कोई आय सीमा नहीं",
+    "RSBY (राष्ट्रीय स्वास्थ्य बीमा योजना) के तहत पहले से कवर परिवार स्वचालित रूप से शामिल हैं"
+  ],
+
+  "eligibility_rules": [
+    {
+      "question_en": "Do you have an Ayushman Bharat card or have you checked if your name is in the Ayushman Bharat beneficiary list?",
+      "question_hi": "क्या आपके पास आयुष्मान भारत कार्ड है या क्या आपने जांचा है कि आपका नाम आयुष्मान भारत लाभार्थी सूची में है?",
+      "field": "has_ayushman_card",
+      "type": "choice",
+      "options": ["yes_have_card", "checked_not_in_list", "never_checked"],
+      "options_labels_en": ["Yes, I have the card", "Checked but not in the list", "I have never checked"],
+      "options_labels_hi": ["हां, मेरे पास कार्ड है", "जांचा लेकिन सूची में नहीं", "मैंने कभी नहीं जांचा"]
+    },
+    {
+      "question_en": "Do you have a ration card (Antyodaya or Priority Household card)?",
+      "question_hi": "क्या आपके पास राशन कार्ड है (अंत्योदय या प्राथमिकता परिवार कार्ड)?",
+      "field": "has_ration_card",
+      "type": "yes_no",
+      "required_value": true,
+      "disqualifying": false
+    },
+    {
+      "question_en": "What best describes your living situation?",
+      "question_hi": "आपकी रहने की स्थिति क्या है?",
+      "field": "living_situation",
+      "type": "choice",
+      "options": ["kutcha_house", "one_room_pucca", "rented", "own_pucca_house"],
+      "options_labels_en": ["Kutcha house (mud/thatch/tin)", "One room pucca house", "Rented house", "Own pucca house (multiple rooms)"],
+      "options_labels_hi": ["कच्चा मकान (मिट्टी/फूस/टिन)", "एक कमरे का पक्का मकान", "किराये का मकान", "अपना पक्का मकान (कई कमरे)"]
+    },
+    {
+      "question_en": "What type of work do you or the main earner in your family do?",
+      "question_hi": "आप या आपके परिवार में मुख्य कमाने वाला क्या काम करता है?",
+      "field": "occupation",
+      "type": "choice",
+      "options": ["daily_wage_labour", "informal_work", "farming_small", "salaried_private", "government_job", "self_employed_small", "unemployed"],
+      "options_labels_en": ["Daily wage labour/construction", "Informal work (vendor/rickshaw/domestic help)", "Small farmer (landless or small land)", "Private salaried job", "Government job", "Small shop/self-employed", "Unemployed/no earning member"],
+      "options_labels_hi": ["दिहाड़ी मजदूरी/निर्माण कार्य", "अनौपचारिक काम (फेरीवाला/रिक्शा/घरेलू काम)", "छोटा किसान (भूमिहीन या कम जमीन)", "प्राइवेट नौकरी", "सरकारी नौकरी", "छोटी दुकान/स्वरोजगार", "बेरोजगार/कोई कमाने वाला नहीं"]
+    }
+  ],
+
+  "documents_required": [
+    {
+      "name_en": "Aadhaar Card",
+      "name_hi": "आधार कार्ड",
+      "description_en": "Your 12-digit Aadhaar number. This is mandatory for creating your Ayushman card. All family members who want coverage need their Aadhaar.",
+      "description_hi": "आपका 12 अंकों का आधार नंबर। आयुष्मान कार्ड बनाने के लिए अनिवार्य है। कवरेज चाहने वाले सभी परिवार के सदस्यों को आधार चाहिए।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Ration Card",
+      "name_hi": "राशन कार्ड",
+      "description_en": "Your ration card helps verify your family details and eligibility. Antyodaya (AAY) or Priority Household (PHH) cards are especially helpful.",
+      "description_hi": "राशन कार्ड आपके परिवार के विवरण और पात्रता सत्यापित करने में मदद करता है। अंत्योदय (AAY) या प्राथमिकता परिवार (PHH) कार्ड विशेष रूप से सहायक हैं।",
+      "mandatory": false
+    },
+    {
+      "name_en": "SECC Reference Number or Family ID",
+      "name_hi": "SECC संदर्भ संख्या या परिवार पहचान संख्या",
+      "description_en": "If you know your SECC number, it helps in quick verification. You can check at mera.pmjay.gov.in with your mobile number.",
+      "description_hi": "अगर आपको अपना SECC नंबर पता है तो जल्दी सत्यापन में मदद मिलती है। आप mera.pmjay.gov.in पर मोबाइल नंबर से जांच सकते हैं।",
+      "mandatory": false
+    },
+    {
+      "name_en": "Mobile Number",
+      "name_hi": "मोबाइल नंबर",
+      "description_en": "An active mobile number for OTP verification when checking eligibility or creating your Ayushman card.",
+      "description_hi": "पात्रता जांचने या आयुष्मान कार्ड बनाते समय OTP सत्यापन के लिए एक सक्रिय मोबाइल नंबर।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Photograph",
+      "name_hi": "फोटो",
+      "description_en": "Passport-size photograph for the Ayushman card. The photo can also be taken at the hospital or CSC center.",
+      "description_hi": "आयुष्मान कार्ड के लिए पासपोर्ट साइज फोटो। फोटो अस्पताल या CSC केंद्र पर भी ली जा सकती है।",
+      "mandatory": true
+    }
+  ],
+
+  "how_to_apply": "Step 1: Check if your name is in the beneficiary list. Visit mera.pmjay.gov.in or call 14555 helpline and enter your mobile number or ration card number. Step 2: If your name is in the list, visit your nearest Common Service Centre (CSC), empanelled hospital, or Ayushman Bharat Arogya Mitra at a government hospital. Step 3: Carry your Aadhaar card and ration card. They will verify your identity using Aadhaar biometric (fingerprint). Step 4: Your Ayushman Bharat e-card will be created on the spot — it is free of cost. Step 5: When you need treatment, go to any Ayushman Bharat empanelled hospital (government or private), show your card, and get cashless treatment.",
+  "how_to_apply_hi": "चरण 1: जांचें कि आपका नाम लाभार्थी सूची में है या नहीं। mera.pmjay.gov.in पर जाएं या 14555 हेल्पलाइन पर कॉल करें, मोबाइल नंबर या राशन कार्ड नंबर दर्ज करें। चरण 2: अगर नाम सूची में है तो नजदीकी जन सेवा केंद्र (CSC), सूचीबद्ध अस्पताल, या सरकारी अस्पताल में आयुष्मान मित्र से मिलें। चरण 3: आधार कार्ड और राशन कार्ड साथ ले जाएं। आधार बायोमेट्रिक (उंगली का निशान) से पहचान सत्यापित होगी। चरण 4: आयुष्मान भारत ई-कार्ड मौके पर ही बन जाएगा — यह पूरी तरह मुफ्त है। चरण 5: इलाज की जरूरत होने पर किसी भी आयुष्मान भारत सूचीबद्ध अस्पताल (सरकारी या प्राइवेट) में जाएं, कार्ड दिखाएं, और कैशलेस इलाज पाएं।",
+
+  "application_url": "https://mera.pmjay.gov.in",
+  "helpline": "14555",
+  "category": ["health", "insurance", "medical"],
+  "target_group": ["BPL families", "low income families", "workers in unorganized sector", "rural poor", "urban poor"]
+}

@@ -1,0 +1,136 @@
+{
+  "scheme_id": "pmay",
+  "scheme_name": "Pradhan Mantri Awas Yojana",
+  "scheme_name_hi": "प्रधानमंत्री आवास योजना",
+  "acronym": "PMAY",
+  "ministry": "Ministry of Housing and Urban Affairs / Ministry of Rural Development",
+  "ministry_hi": "आवास और शहरी कार्य मंत्रालय / ग्रामीण विकास मंत्रालय",
+
+  "description": "Pradhan Mantri Awas Yojana is a government scheme that helps poor and middle-income families build or buy their own house. The government gives financial help (subsidy) to make housing affordable. It has two parts: PMAY-Urban for people living in cities and PMAY-Gramin (now called PMAY-G) for people living in villages.",
+  "description_hi": "प्रधानमंत्री आवास योजना एक सरकारी योजना है जो गरीब और मध्यम आय वाले परिवारों को अपना घर बनाने या खरीदने में मदद करती है। सरकार किफायती आवास के लिए वित्तीय सहायता (सब्सिडी) देती है। इसके दो भाग हैं: शहरों में रहने वालों के लिए PMAY-शहरी और गांवों में रहने वालों के लिए PMAY-ग्रामीण।",
+
+  "benefits": "PMAY-Urban: Interest subsidy of 3% to 6.5% on home loans depending on income category. EWS/LIG get up to Rs 2.67 lakh subsidy. PMAY-Gramin: Financial assistance of Rs 1.20 lakh in plain areas and Rs 1.30 lakh in hilly/difficult areas for building a house, plus Rs 12,000 for toilet construction under Swachh Bharat Mission.",
+  "benefits_hi": "PMAY-शहरी: आय वर्ग के अनुसार होम लोन पर 3% से 6.5% तक ब्याज सब्सिडी। EWS/LIG को 2.67 लाख रुपये तक सब्सिडी। PMAY-ग्रामीण: मैदानी इलाकों में घर बनाने के लिए 1.20 लाख रुपये और पहाड़ी/कठिन इलाकों में 1.30 लाख रुपये की वित्तीय सहायता, साथ ही स्वच्छ भारत मिशन के तहत शौचालय निर्माण के लिए 12,000 रुपये।",
+
+  "eligibility": [
+    "Beneficiary family should not own a pucca house anywhere in India",
+    "PMAY-Urban EWS: Annual household income up to Rs 3 lakh",
+    "PMAY-Urban LIG: Annual household income between Rs 3 lakh to Rs 6 lakh",
+    "PMAY-Urban MIG-I: Annual household income between Rs 6 lakh to Rs 12 lakh",
+    "PMAY-Urban MIG-II: Annual household income between Rs 12 lakh to Rs 18 lakh",
+    "PMAY-Gramin: Must be in the BPL list or Awas Plus list prepared from SECC 2011 data",
+    "The house must be in the name of the female head of the household or jointly with her",
+    "Should not have availed benefits under any other housing scheme from the government"
+  ],
+  "eligibility_hi": [
+    "लाभार्थी परिवार के पास भारत में कहीं भी पक्का मकान नहीं होना चाहिए",
+    "PMAY-शहरी EWS: वार्षिक घरेलू आय 3 लाख रुपये तक",
+    "PMAY-शहरी LIG: वार्षिक घरेलू आय 3 लाख से 6 लाख रुपये के बीच",
+    "PMAY-शहरी MIG-I: वार्षिक घरेलू आय 6 लाख से 12 लाख रुपये के बीच",
+    "PMAY-शहरी MIG-II: वार्षिक घरेलू आय 12 लाख से 18 लाख रुपये के बीच",
+    "PMAY-ग्रामीण: BPL सूची या SECC 2011 डेटा से तैयार आवास प्लस सूची में होना चाहिए",
+    "घर परिवार की महिला मुखिया के नाम पर या उसके साथ संयुक्त नाम पर होना चाहिए",
+    "सरकार की किसी अन्य आवास योजना का लाभ न लिया हो"
+  ],
+
+  "eligibility_rules": [
+    {
+      "question_en": "Do you or your family currently own a pucca (permanent/brick) house anywhere in India?",
+      "question_hi": "क्या आपके या आपके परिवार के पास भारत में कहीं भी पक्का मकान है?",
+      "field": "owns_pucca_house",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Unfortunately, families who already own a pucca house are not eligible for PMAY.",
+      "disqualify_message_hi": "दुर्भाग्य से, जिन परिवारों के पास पहले से पक्का मकान है, वे PMAY के लिए पात्र नहीं हैं।"
+    },
+    {
+      "question_en": "Have you received any housing benefit from any other government scheme before?",
+      "question_hi": "क्या आपने पहले किसी अन्य सरकारी योजना से कोई आवास लाभ प्राप्त किया है?",
+      "field": "previous_housing_benefit",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Those who have already received housing benefits from another government scheme cannot apply for PMAY.",
+      "disqualify_message_hi": "जिन्होंने पहले से किसी अन्य सरकारी योजना से आवास लाभ प्राप्त किया है, वे PMAY के लिए आवेदन नहीं कर सकते।"
+    },
+    {
+      "question_en": "Do you live in an urban area (city/town) or a rural area (village)?",
+      "question_hi": "क्या आप शहरी इलाके (शहर/कस्बा) में रहते हैं या ग्रामीण इलाके (गांव) में?",
+      "field": "area_type",
+      "type": "choice",
+      "options": ["urban", "rural"],
+      "options_labels_en": ["Urban (City/Town)", "Rural (Village)"],
+      "options_labels_hi": ["शहरी (शहर/कस्बा)", "ग्रामीण (गांव)"]
+    },
+    {
+      "question_en": "What is your family's total annual income (approximately)?",
+      "question_hi": "आपके परिवार की कुल वार्षिक आय लगभग कितनी है?",
+      "field": "annual_income",
+      "type": "choice",
+      "options": ["below_3l", "3l_to_6l", "6l_to_12l", "12l_to_18l", "above_18l"],
+      "options_labels_en": ["Below Rs 3 lakh", "Rs 3-6 lakh", "Rs 6-12 lakh", "Rs 12-18 lakh", "Above Rs 18 lakh"],
+      "options_labels_hi": ["3 लाख से कम", "3-6 लाख", "6-12 लाख", "12-18 लाख", "18 लाख से ऊपर"]
+    }
+  ],
+
+  "documents_required": [
+    {
+      "name_en": "Aadhaar Card",
+      "name_hi": "आधार कार्ड",
+      "description_en": "Your 12-digit Aadhaar number. This is the most important document. If you don't have one, visit your nearest Aadhaar enrollment center.",
+      "description_hi": "आपका 12 अंकों का आधार नंबर। यह सबसे महत्वपूर्ण दस्तावेज है। अगर नहीं है तो नजदीकी आधार नामांकन केंद्र पर जाएं।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Income Certificate",
+      "name_hi": "आय प्रमाण पत्र",
+      "description_en": "Certificate showing your family's annual income. Get it from your Tehsildar office or apply online on your state's e-District portal.",
+      "description_hi": "आपके परिवार की वार्षिक आय दर्शाने वाला प्रमाण पत्र। तहसीलदार कार्यालय से प्राप्त करें या राज्य के ई-डिस्ट्रिक्ट पोर्टल पर ऑनलाइन आवेदन करें।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Address Proof",
+      "name_hi": "पता प्रमाण",
+      "description_en": "Any document showing your current address - voter ID, electricity bill, ration card, or Aadhaar card.",
+      "description_hi": "आपका वर्तमान पता दर्शाने वाला कोई भी दस्तावेज - मतदाता पहचान पत्र, बिजली बिल, राशन कार्ड, या आधार कार्ड।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Bank Account Details",
+      "name_hi": "बैंक खाता विवरण",
+      "description_en": "Bank passbook or cancelled cheque showing your account number and IFSC code. The subsidy will be credited to this account.",
+      "description_hi": "बैंक पासबुक या कैंसल्ड चेक जिसमें खाता संख्या और IFSC कोड हो। सब्सिडी इसी खाते में आएगी।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Caste Certificate (if applicable)",
+      "name_hi": "जाति प्रमाण पत्र (यदि लागू हो)",
+      "description_en": "Required if applying under SC/ST/OBC category. Get it from your Tehsildar office.",
+      "description_hi": "SC/ST/OBC श्रेणी में आवेदन करने पर आवश्यक। तहसीलदार कार्यालय से प्राप्त करें।",
+      "mandatory": false
+    },
+    {
+      "name_en": "Affidavit / Self-Declaration",
+      "name_hi": "शपथ पत्र / स्व-घोषणा",
+      "description_en": "A sworn statement that you don't own a pucca house and haven't received housing benefits before. A notary or stamp paper is needed.",
+      "description_hi": "एक शपथ पत्र कि आपके पास पक्का मकान नहीं है और पहले आवास लाभ नहीं लिया है। नोटरी या स्टाम्प पेपर की आवश्यकता होगी।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Photograph",
+      "name_hi": "फोटो",
+      "description_en": "Recent passport-size photographs of the applicant.",
+      "description_hi": "आवेदक की हालिया पासपोर्ट साइज फोटो।",
+      "mandatory": true
+    }
+  ],
+
+  "how_to_apply": "For PMAY-Urban: Visit pmaymis.gov.in and click 'Citizen Assessment'. Enter your Aadhaar number, fill the form with your personal and income details, and submit. You can also apply through your nearest Common Service Centre (CSC) for Rs 25 fee. For PMAY-Gramin: The selection is done automatically from SECC 2011 data by the Gram Sabha. Check your name on pmayg.nic.in using your Aadhaar number. If your name is in the list, contact your Gram Panchayat or Block Development Office.",
+  "how_to_apply_hi": "PMAY-शहरी के लिए: pmaymis.gov.in पर जाएं और 'Citizen Assessment' पर क्लिक करें। आधार नंबर दर्ज करें, व्यक्तिगत और आय विवरण भरें, और सबमिट करें। आप नजदीकी जन सेवा केंद्र (CSC) से भी 25 रुपये शुल्क पर आवेदन कर सकते हैं। PMAY-ग्रामीण के लिए: चयन SECC 2011 डेटा से ग्राम सभा द्वारा स्वचालित रूप से किया जाता है। pmayg.nic.in पर आधार नंबर से अपना नाम जांचें। अगर नाम सूची में है तो ग्राम पंचायत या ब्लॉक विकास कार्यालय से संपर्क करें।",
+
+  "application_url": "https://pmaymis.gov.in",
+  "helpline": "1800-11-6163",
+  "category": ["housing", "subsidy", "urban", "rural"],
+  "target_group": ["economically weaker sections", "low income groups", "middle income groups", "homeless", "slum dwellers"]
+}

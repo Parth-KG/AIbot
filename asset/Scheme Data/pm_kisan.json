@@ -1,0 +1,129 @@
+{
+  "scheme_id": "pm_kisan",
+  "scheme_name": "Pradhan Mantri Kisan Samman Nidhi",
+  "scheme_name_hi": "प्रधानमंत्री किसान सम्मान निधि",
+  "acronym": "PM-KISAN",
+  "ministry": "Ministry of Agriculture and Farmers Welfare",
+  "ministry_hi": "कृषि और किसान कल्याण मंत्रालय",
+
+  "description": "PM Kisan is a scheme where the government directly sends Rs 6,000 per year to farmers' bank accounts. The money comes in 3 installments of Rs 2,000 each, every 4 months. This is to help small and marginal farmers with their farming costs like buying seeds, fertilizers, and other inputs. The money is sent directly to the farmer's bank account — no middleman is involved.",
+  "description_hi": "पीएम किसान एक योजना है जिसमें सरकार सीधे किसानों के बैंक खाते में हर साल 6,000 रुपये भेजती है। पैसा 3 किस्तों में आता है — हर 4 महीने में 2,000 रुपये। यह छोटे और सीमांत किसानों को खेती के खर्चों जैसे बीज, खाद और अन्य सामग्री खरीदने में मदद करने के लिए है। पैसा सीधे किसान के बैंक खाते में भेजा जाता है — कोई बिचौलिया नहीं।",
+
+  "benefits": "Rs 6,000 per year in 3 equal installments of Rs 2,000 each. Installment 1: April to July. Installment 2: August to November. Installment 3: December to March. Money is transferred directly to the farmer's Aadhaar-linked bank account via Direct Benefit Transfer (DBT).",
+  "benefits_hi": "प्रति वर्ष 6,000 रुपये 3 बराबर किस्तों में 2,000 रुपये प्रत्येक। किस्त 1: अप्रैल से जुलाई। किस्त 2: अगस्त से नवंबर। किस्त 3: दिसंबर से मार्च। पैसा किसान के आधार से जुड़े बैंक खाते में सीधे डायरेक्ट बेनिफिट ट्रांसफर (DBT) के माध्यम से भेजा जाता है।",
+
+  "eligibility": [
+    "Must be a farmer with cultivable (farming) land",
+    "Land must be in the farmer's name in land records",
+    "All landholding farmers are eligible regardless of the size of their land",
+    "Must be an Indian citizen",
+    "Must not be a current or former government employee (central/state)",
+    "Must not be a current or former Member of Parliament or MLA",
+    "Must not be an income tax payer",
+    "Must not be receiving a monthly pension of Rs 10,000 or more from the government",
+    "Professionals like doctors, engineers, lawyers, chartered accountants who are registered and practicing are NOT eligible"
+  ],
+  "eligibility_hi": [
+    "खेती योग्य जमीन वाला किसान होना चाहिए",
+    "भूमि रिकॉर्ड में किसान के नाम पर जमीन होनी चाहिए",
+    "सभी भूमिधारक किसान पात्र हैं चाहे जमीन कितनी भी हो",
+    "भारतीय नागरिक होना चाहिए",
+    "वर्तमान या पूर्व सरकारी कर्मचारी (केंद्र/राज्य) नहीं होना चाहिए",
+    "वर्तमान या पूर्व सांसद या विधायक नहीं होना चाहिए",
+    "आयकर दाता नहीं होना चाहिए",
+    "सरकार से 10,000 रुपये या उससे अधिक मासिक पेंशन प्राप्त नहीं करता हो",
+    "पंजीकृत और प्रैक्टिस करने वाले डॉक्टर, इंजीनियर, वकील, चार्टर्ड अकाउंटेंट जैसे पेशेवर पात्र नहीं हैं"
+  ],
+
+  "eligibility_rules": [
+    {
+      "question_en": "Do you own any agricultural (farming) land?",
+      "question_hi": "क्या आपके नाम पर कोई कृषि (खेती की) जमीन है?",
+      "field": "owns_farm_land",
+      "type": "yes_no",
+      "required_value": true,
+      "disqualifying": true,
+      "disqualify_message_en": "PM Kisan requires the applicant to own cultivable agricultural land. Without farm land in your name, you may not be eligible.",
+      "disqualify_message_hi": "पीएम किसान के लिए आवेदक के नाम पर खेती योग्य कृषि भूमि होनी चाहिए। बिना जमीन के आप पात्र नहीं हो सकते।"
+    },
+    {
+      "question_en": "Are you currently a government employee or were you a government employee in the past?",
+      "question_hi": "क्या आप वर्तमान में सरकारी कर्मचारी हैं या अतीत में थे?",
+      "field": "is_govt_employee",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Current and former government employees are not eligible for PM Kisan scheme.",
+      "disqualify_message_hi": "वर्तमान और पूर्व सरकारी कर्मचारी पीएम किसान योजना के लिए पात्र नहीं हैं।"
+    },
+    {
+      "question_en": "Do you file income tax returns?",
+      "question_hi": "क्या आप आयकर रिटर्न (income tax) भरते हैं?",
+      "field": "pays_income_tax",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Income tax payers are not eligible for PM Kisan. This scheme is meant for small farmers who don't pay income tax.",
+      "disqualify_message_hi": "आयकर दाता पीएम किसान के लिए पात्र नहीं हैं। यह योजना उन छोटे किसानों के लिए है जो आयकर नहीं भरते।"
+    },
+    {
+      "question_en": "Do you receive any pension from the government of Rs 10,000 or more per month?",
+      "question_hi": "क्या आपको सरकार से 10,000 रुपये या उससे अधिक मासिक पेंशन मिलती है?",
+      "field": "receives_pension",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Those receiving government pension of Rs 10,000 or more per month are not eligible for PM Kisan.",
+      "disqualify_message_hi": "10,000 रुपये या उससे अधिक मासिक सरकारी पेंशन पाने वाले पीएम किसान के लिए पात्र नहीं हैं।"
+    },
+    {
+      "question_en": "Are you a practicing professional like a doctor, lawyer, engineer, or chartered accountant?",
+      "question_hi": "क्या आप प्रैक्टिस करने वाले डॉक्टर, वकील, इंजीनियर, या चार्टर्ड अकाउंटेंट जैसे पेशेवर हैं?",
+      "field": "is_professional",
+      "type": "yes_no",
+      "required_value": false,
+      "disqualifying": true,
+      "disqualify_message_en": "Registered practicing professionals are not eligible for PM Kisan.",
+      "disqualify_message_hi": "पंजीकृत प्रैक्टिस करने वाले पेशेवर पीएम किसान के लिए पात्र नहीं हैं।"
+    }
+  ],
+
+  "documents_required": [
+    {
+      "name_en": "Aadhaar Card",
+      "name_hi": "आधार कार्ड",
+      "description_en": "Your Aadhaar card is mandatory. Your Aadhaar must be linked to your bank account for receiving the money. Visit your bank to link Aadhaar if not done.",
+      "description_hi": "आधार कार्ड अनिवार्य है। पैसे प्राप्त करने के लिए आधार आपके बैंक खाते से लिंक होना चाहिए। अगर नहीं है तो बैंक जाकर लिंक करवाएं।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Land Ownership Records (Khasra/Khatauni)",
+      "name_hi": "भूमि स्वामित्व रिकॉर्ड (खसरा/खतौनी)",
+      "description_en": "Documents proving you own agricultural land. Get these from your Tehsil/Patwari office or download from your state's Bhulekh portal (land records website).",
+      "description_hi": "यह दस्तावेज साबित करता है कि आपके नाम पर खेती की जमीन है। तहसील/पटवारी कार्यालय से प्राप्त करें या अपने राज्य के भूलेख पोर्टल (भूमि रिकॉर्ड वेबसाइट) से डाउनलोड करें।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Bank Account with IFSC Code",
+      "name_hi": "बैंक खाता IFSC कोड सहित",
+      "description_en": "Your bank passbook showing account number and IFSC code. The account must be in your name and linked to your Aadhaar. If you don't have a bank account, open a Jan Dhan account at any bank — it's free.",
+      "description_hi": "बैंक पासबुक जिसमें खाता नंबर और IFSC कोड हो। खाता आपके नाम पर और आधार से लिंक होना चाहिए। अगर बैंक खाता नहीं है तो किसी भी बैंक में जन धन खाता खोलें — यह मुफ्त है।",
+      "mandatory": true
+    },
+    {
+      "name_en": "Mobile Number",
+      "name_hi": "मोबाइल नंबर",
+      "description_en": "An active mobile number for registration and OTP verification.",
+      "description_hi": "पंजीकरण और OTP सत्यापन के लिए एक सक्रिय मोबाइल नंबर।",
+      "mandatory": true
+    }
+  ],
+
+  "how_to_apply": "Option 1 - Online: Visit pmkisan.gov.in and click 'New Farmer Registration'. Enter your Aadhaar number, mobile number, and state. Fill in your land details and bank account information. Submit the form. Option 2 - Through CSC: Visit your nearest Common Service Centre (Jan Seva Kendra). They will help you register for a small fee of Rs 25-50. Carry your Aadhaar card, land records, and bank passbook. Option 3 - Through Patwari/Village Level Entrepreneur (VLE): In many states, the Patwari or local revenue officer can register you. After registration, your local agriculture officer will verify your land records. Once verified, you will start receiving the installments. Check your status at pmkisan.gov.in using your Aadhaar number or mobile number.",
+  "how_to_apply_hi": "विकल्प 1 - ऑनलाइन: pmkisan.gov.in पर जाएं और 'New Farmer Registration' पर क्लिक करें। आधार नंबर, मोबाइल नंबर और राज्य दर्ज करें। जमीन का विवरण और बैंक खाता जानकारी भरें। फॉर्म सबमिट करें। विकल्प 2 - CSC के माध्यम से: नजदीकी जन सेवा केंद्र पर जाएं। वे 25-50 रुपये के शुल्क पर पंजीकरण में मदद करेंगे। आधार कार्ड, भूमि रिकॉर्ड और बैंक पासबुक साथ ले जाएं। विकल्प 3 - पटवारी/VLE के माध्यम से: कई राज्यों में पटवारी या स्थानीय राजस्व अधिकारी आपका पंजीकरण कर सकते हैं। पंजीकरण के बाद स्थानीय कृषि अधिकारी भूमि रिकॉर्ड सत्यापित करेगा। सत्यापन के बाद किस्तें मिलना शुरू हो जाएंगी। pmkisan.gov.in पर आधार या मोबाइल नंबर से स्थिति जांचें।",
+
+  "application_url": "https://pmkisan.gov.in",
+  "helpline": "155261",
+  "category": ["agriculture", "financial assistance", "direct benefit transfer"],
+  "target_group": ["farmers", "small farmers", "marginal farmers", "landholding farmers"]
+}
