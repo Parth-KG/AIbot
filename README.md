@@ -1,23 +1,27 @@
-# 🎙️ SarkariSahayak
+<p align="center">
+  <img src="./assets/banner.svg" alt="SarkariSahayak Banner" width="100%"/>
+</p>
 
-> **Voice AI Agent for Government Scheme Accessibility** — Making Indian welfare schemes accessible through natural conversation, in Hindi & English.
-
-[![Built at HackBlr 2026](https://img.shields.io/badge/Built%20at-HackBlr%202026-0D9488)]()
-[![Powered by Vapi](https://img.shields.io/badge/Powered%20by-Vapi-14B8A6)](https://vapi.ai)
-[![Powered by Qdrant](https://img.shields.io/badge/Powered%20by-Qdrant-DC382D)](https://qdrant.tech)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688)](https://fastapi.tiangolo.com)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB)](https://www.python.org)
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Built%20at-HackBlr%202026-0D9488" alt="HackBlr 2026"/></a>
+  <a href="https://vapi.ai"><img src="https://img.shields.io/badge/Powered%20by-Vapi-14B8A6" alt="Vapi"/></a>
+  <a href="https://qdrant.tech"><img src="https://img.shields.io/badge/Powered%20by-Qdrant-DC382D" alt="Qdrant"/></a>
+  <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/Backend-FastAPI-009688" alt="FastAPI"/></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3.10+-3776AB" alt="Python"/></a>
+  <a href="#-license"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"/></a>
+</p>
 
 ---
 
 ## 📖 About
 
-**SarkariSahayak** (सरकारी सहायक — "Government Helper") is a voice-first AI agent that helps Indian citizens discover, understand, and apply for government welfare schemes through natural conversation — no app, no typing, no internet literacy required.
+**SarkariSahayak** (सरकारी सहायक — *"Government Helper"*) is a voice-first AI agent that helps Indian citizens discover, understand, and apply for government welfare schemes through natural conversation — no app, no typing, no internet literacy required.
 
 Just call a number, speak naturally in Hindi or English, and the agent will:
-- Check your **eligibility** across multiple schemes based on your profile
-- Explain the **documents** you'll need to apply
-- Guide you through the **application** process
+
+- ✅ Check your **eligibility** across multiple schemes based on your profile
+- 📄 Explain the **documents** you'll need to apply
+- 🧭 Guide you through the **application** process
 
 ### 🎯 The Problem We Solve
 
@@ -27,6 +31,24 @@ Just call a number, speak naturally in Hindi or English, and the agent will:
 - **700+** welfare schemes exist, but most eligible citizens never access them
 
 Literacy, language, and digital barriers prevent millions from accessing benefits they deserve. SarkariSahayak bridges this gap with voice — the most natural, universally accessible interface.
+
+---
+
+## 🎬 Demo
+
+> _Screenshot / demo GIF placeholder — add here after recording_
+
+<!--
+Recommended captures to add here:
+1. A GIF of an actual call (use a screen recorder while dialing the Vapi number)
+2. A screenshot of the Vapi dashboard showing the assistant configuration
+3. A screenshot of a real call transcript
+Save them to assets/ and reference like:
+<p align="center"><img src="./assets/demo.gif" width="600"/></p>
+-->
+
+📹 **Demo video:** _Coming soon_
+📞 **Try it live:** _Demo phone number will be shared at HackBlr 2026_
 
 ---
 
@@ -42,6 +64,29 @@ Literacy, language, and digital barriers prevent millions from accessing benefit
 
 ---
 
+## 🔄 How It Works
+
+<p align="center">
+  <img src="./assets/flow.svg" alt="User Flow - 4 Steps" width="100%"/>
+</p>
+
+1. **User Calls** — The user dials the SarkariSahayak number and speaks naturally in Hindi or English.
+2. **AI Understands** — Vapi transcribes the speech in real-time and passes the query to our FastAPI backend.
+3. **Qdrant Retrieves** — The backend queries Qdrant, which uses vector search to find the most relevant schemes based on the user's profile and needs.
+4. **Agent Responds** — The LLM composes a helpful response, Vapi converts it to speech, and the user hears a natural voice reply.
+
+---
+
+## 🏗️ Architecture
+
+<p align="center">
+  <img src="./assets/architecture.svg" alt="System Architecture" width="100%"/>
+</p>
+
+**Data flow:** Voice In → Vapi (STT) → FastAPI (Logic) → Qdrant (Retrieval) + LLM (Reasoning) → FastAPI (Response) → Vapi (TTS) → Voice Out
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology | Purpose |
@@ -49,31 +94,9 @@ Literacy, language, and digital barriers prevent millions from accessing benefit
 | **Voice** | [Vapi](https://vapi.ai) | Real-time STT/TTS, bilingual voice handling, webhooks |
 | **Intelligence** | [Qdrant](https://qdrant.tech) | Vector database for semantic scheme retrieval |
 | **Backend** | [FastAPI](https://fastapi.tiangolo.com) | Python async server, business logic, orchestration |
+| **LLM** | OpenAI / Anthropic | Natural language understanding & generation |
 | **Language** | Python 3.10+ | Core programming language |
 | **Deployment** | Railway / Render | Backend hosting |
-
----
-
-## 🏗️ Architecture
-
-```
-    ┌─────────────┐      ┌──────────────┐      ┌──────────────┐
-    │             │      │              │      │              │
-    │   User      │─────▶│     Vapi     │─────▶│   FastAPI    │
-    │  (Phone)    │ voice│  (STT/TTS)   │ JSON │  (Backend)   │
-    │             │◀─────│              │◀─────│              │
-    └─────────────┘      └──────────────┘      └──────┬───────┘
-                                                      │
-                                                      │ semantic query
-                                                      ▼
-                                               ┌──────────────┐
-                                               │    Qdrant    │
-                                               │  (Vector DB) │
-                                               │              │
-                                               └──────────────┘
-```
-
-**Flow:** Voice In → Vapi (STT) → FastAPI (Logic) → Qdrant (Retrieval) → FastAPI (Response) → Vapi (TTS) → Voice Out
 
 ---
 
@@ -164,7 +187,11 @@ sarkari-sahayak/
 │   ├── models/
 │   │   └── schemas.py          # Pydantic models
 │   └── config.py
-├── data/
+├── assets/                     # README images & demo media
+│   ├── banner.svg
+│   ├── architecture.svg
+│   └── flow.svg
+├── data/                       # Scheme data as JSON
 │   ├── ayushman_bharat.json
 │   ├── national_scholarship.json
 │   ├── pm_awas_yojana.json
@@ -207,21 +234,16 @@ sarkari-sahayak/
 
 ---
 
-## 🎬 Demo
-
-📹 **Demo video:** _Coming soon_
-📞 **Try it live:** _Demo phone number will be shared at HackBlr 2026_
-
----
-
 ## 👥 Team Batman
 
 Built with ❤️ at **HackBlr 2026** by:
 
-- **Aarushi Sen**
-- **Bhoomika Mittal**
-- **Jagrit Goel**
-- **Parth Krishan Goswami**
+| Member | Role |
+|--------|------|
+| **Aarushi Sen** | _Add role_ |
+| **Bhoomika Mittal** | _Add role_ |
+| **Jagrit Goel** | _Add role_ |
+| **Parth Krishan Goswami** | _Add role_ |
 
 ---
 
